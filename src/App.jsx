@@ -190,10 +190,10 @@ const memberList = useMemo(() => {
   return (
     <div className="unsupported-network">
       <h2>Please connect to Rinkeby</h2>
-      <p>
+      <h2>
         This dapp only works on the Rinkeby network, please switch networks
         in your connected wallet.
-      </p>
+      </h2>
     </div>
   );
 }
